@@ -1,9 +1,5 @@
 @media only screen and (max-width: 480px) {
 
-  html {
-  display: none;
-  }
-
   .Celebrated {
   display: none;
   }
@@ -538,9 +534,6 @@
         display: none;
       }
 
-      html {
-      display: none;
-      }
 
       
     
@@ -873,10 +866,24 @@
     
     
     @media (min-width: 600px) and (max-width: 1100px) {
-    
-    
       nav {
         display: none;
+      }
+
+      .nav-bar {
+      display: none;
+      }
+
+      .Manu-bar-2 {
+        display: none;
+      }
+
+      .fa-facebook-f {
+      font-size: 60px;
+      }
+
+      .fa-instagram {
+      font-size: 60px;
       }
 
       .Celebrated {
@@ -926,11 +933,12 @@
     
     .dropbtn {
       padding: 16px;
-      font-size: 16px;
+      font-size: 45px;
       border: none;
       cursor: pointer;
       font-family:none;
       background: none;
+      outline: none;
     }
     
     .fa ,fa-bars {
@@ -1033,44 +1041,6 @@
     margin-top: 60px;
     }
     
-    .nature {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 260px;
-    margin-bottom: -3px;
-    margin-top: -210px;
-    width: 70%;
-    }
-    
-    .nature2 {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 260px;
-    margin-bottom: -3px;
-    margin-top: -184px;
-    width: 70%; 
-    }
-    
-    .nature3 {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 260px;
-    margin-bottom: -3px;
-    margin-top: -184px;
-    width: 70%;
-    }
     
     
     .dropdown-content1 {
@@ -1155,10 +1125,14 @@
     }
     
     .fa-bars {
-      color: black;
+      color: white;
       position: absolute;
       margin-left: -58px;
       font-size: 53px!important;
+    }
+
+    nav {
+    background: none;
     }
     
     .flower {
@@ -1172,6 +1146,7 @@
     
     .topnav #myLinks {
       display: none;
+      margin-top: 5px;
     }
     
     .logo {
@@ -1191,7 +1166,7 @@
       color: black;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 35px;
       display: block;
     }
     
@@ -1205,9 +1180,9 @@
     }
     
     .active {
-      background-color: white;
+      background-color: red;
       color: white;
-      height: 20px;
+      height: 45px;
     }
     }
     
