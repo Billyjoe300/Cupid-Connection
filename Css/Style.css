@@ -84,7 +84,7 @@ opacity: 0.3;
 .myDIV {
 width: 50%;
 height: 315px;
-background-image: url("D:/Web Development/Portfolio/Website/Cupid Connection/Image/7360.jpg");
+background-image: url("/Web Development/Portfolio/Website/Cupid Connection/Image/7360.jpg");
 background-size: contain;
 background-repeat: no-repeat;
 }
