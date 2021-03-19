@@ -15,6 +15,16 @@ margin-top: -76px;
 padding: 30px;
 }
 
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: black;
+  background: #ff6458;
+}
+
 .fa-glass-cheers {
 margin: 50px;
 color: red;
