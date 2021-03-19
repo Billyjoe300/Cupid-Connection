@@ -15,16 +15,6 @@ margin-top: -76px;
 padding: 30px;
 }
 
-.hide {
-  display: none;
-}
-    
-.myDIV:hover + .hide {
-  display: block;
-  color: black;
-  background: #ff6458;
-}
-
 .fa-glass-cheers {
 margin: 50px;
 color: red;
@@ -75,17 +65,30 @@ margin-top: 89px;
 padding: 20px;
 }
 
-.images-icon:hover {
+.images-icon:hover  {
 cursor: pointer;
 opacity: 0.3;
 }
 
-
-.Events {
-text-align: center;
-font-size: 20px;
-color: black;
+.hide {
+  display: none;
 }
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: black;
+  background: #ff6458;
+}
+
+
+.myDIV {
+width: 50%;
+height: 315px;
+background-image: url(/Image/7360.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
 
 .btn-price {
 padding: 8px;
