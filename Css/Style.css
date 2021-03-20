@@ -70,25 +70,24 @@ cursor: pointer;
 opacity: 0.3;
 }
 
-.hide {
-  display: none;
-}
-    
-.myDIV:hover + .hide {
-  display: block;
-  color: black;
-  background: #ff6458;
-}
-
-
-.myDIV {
-width: 50%;
-height: 315px;
-background-image: url("main/Cupid-Connection/Image/7360.jpg");
-background-size: contain;
-background-repeat: no-repeat;
+.Events {
+display: none;
+font-size: 22px;
+padding: 10px;
+color: black;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+min-width: 100%;
+margin-left: -250px;
+margin-top: -126px;
+color: white;
 }
 
+.images-icon:hover + .Events  {
+display: block;
+cursor: pointer;
+}
 
 .btn-price {
 padding: 8px;
@@ -133,6 +132,7 @@ position: absolute;
 margin-left: -300px;
 border-radius: 50px;
 }
+
 
 .Celebrated {
 position: absolute;
@@ -335,11 +335,9 @@ color: black;
 
 
     .Title-menu {
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 18px;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
     }
     
     .box-row2 {
