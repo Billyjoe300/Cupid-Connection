@@ -924,7 +924,9 @@
     width: 27%;
     }
     
-    
+    .images-icon {
+    width: 27%;
+    }
     
     .Skin-care {
     font-size: 19px;
@@ -1040,8 +1042,6 @@
     margin-right: auto;
     margin-top: 60px;
     }
-    
-    
     
     .dropdown-content1 {
       display: none;
@@ -1185,4 +1185,3 @@
       height: 45px;
     }
     }
-    
