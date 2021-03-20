@@ -70,18 +70,6 @@ cursor: pointer;
 opacity: 0.3;
 }
 
-.Events {
-display: none;
-font-size: 22px;
-padding: 10px;;
-color: black;
-}
-
-.images-icon:hover + .Events  {
-display: block;
-cursor: pointer;
-}
-
 .btn-price {
 padding: 8px;
 border: none;
