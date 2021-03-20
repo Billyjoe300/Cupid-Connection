@@ -146,7 +146,7 @@ font-size: 43px;
 .Banner-Image {
 min-width: 100%;
 margin-top: 249px;
-height: 700px;
+height: 778px;
 }
 
 .Services {
@@ -278,9 +278,6 @@ color: black;
     width: 23px;
     }
     
-    .Simplicite-footer {
-    margin-top: 86px;
-    }
     
     .row {
     display: flex;
